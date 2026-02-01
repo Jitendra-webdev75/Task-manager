@@ -146,7 +146,11 @@ function Userinput() {
                     onClick={() => delbtn(index)}
                     className="active:scale-95 cursor-pointer"
                   >
-                    <AiFillDelete className="text-[#9CA3AF]   hover:text-red-700" />
+                    <AiFillDelete
+                      className="sm:text-[#9CA3AF] md:text-[#9CA3AF]
+                      lg:text-[#9CA3AF]  text-red-700
+                       hover:text-red-700  "
+                    />
                   </button>
 
                   {/* Edit button */}
@@ -155,8 +159,9 @@ function Userinput() {
                     className="active:scale-95 cursor-pointer"
                   >
                     <MdModeEdit
-                      className="text-[#9CA3AF]
-                      hover:text-blue-400"
+                      className="sm:text-[#9CA3AF] md:text-[#9CA3AF]
+                      lg:text-[#9CA3AF]  text-blue-400
+                       hover:text-blue-400  "
                     />
                   </button>
                 </div>
