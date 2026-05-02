@@ -68,7 +68,7 @@ function Userinput() {
       <div
         className="section1 h-[30vh] w-full
         flex flex-col p-10 
-        sm:flex sm:flex-row md:flex md:flex-row lg:flex lg:flex-row  font-serif
+        sm:flex sm:flex-col md:flex md:flex-row lg:flex lg:flex-row  font-serif
          justify-center items-center gap-3"
       >
         <input
@@ -76,9 +76,9 @@ function Userinput() {
             setTask({ ...task, content: event.target.value })
           }
           ref={inputRef}
-          className=" h-[7vh] w-[90vw]  bg-[#d3d6d9dd] 
-          text-2xl sm:h-[11vh] sm:w-[70vw] md:h-[11vh]
-           md:w-[87vw] md:text-4xl
+          className=" h-[7vh] w-full  bg-[#d3d6d9dd] 
+          text-2xl sm:h-[8vh] sm:max-w-[90%] md:h-[8vh]
+           md:max-w-[90%] md:text-4xl
            lg:h-[11vh] lg:w-[50vw]
         rounded-l-lg p-4 outline-none border-none"
           type="text"
