@@ -76,9 +76,9 @@ function Userinput() {
             setTask({ ...task, content: event.target.value })
           }
           ref={inputRef}
-          className=" h-[10vh] w-[70vw]  bg-[#d3d6d9dd] 
-          text-2xl sm:h-[11vh] sm:w-[70vw] md:h-[13vh]
-           md:w-[47vw] 
+          className=" h-[7vh] w-[90vw]  bg-[#d3d6d9dd] 
+          text-2xl sm:h-[11vh] sm:w-[70vw] md:h-[11vh]
+           md:w-[87vw] md:text-4xl
            lg:h-[11vh] lg:w-[50vw]
         rounded-l-lg p-4 outline-none border-none"
           type="text"
@@ -110,7 +110,7 @@ function Userinput() {
                 className="  w-[73vw]  border-[#1F2937] border-2 p-2
                 text-2xl  sm:text-[1.7rem] md:text-[2rem] 
                 rounded-2xl sm:p-7  md:p-7  lg:p-7 flex justify-between gap-3 
-                hover:bg-[#1F2937]"
+                hover:bg-[#1F2937] "
                 key={index}
               >
                 <div
